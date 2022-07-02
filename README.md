@@ -1,49 +1,23 @@
-# 这是我的博客文件备份
+# 修复Joe主题静态资源为国内地址
 
+之前一直是在良好的网络环境中使用我的博客系统，一直没有发现资源加载异常问题，如今我回到内蒙古之后发现这边运营商的DNS污染问题挺严重，就连GitHub都无法正常访问，包括我的博客系统中很多静态资源加载并不正常。所以今天我将我的博客静态资源进行了修复。
 
-小陈运维，致力于运维技术博客文档分享。互相学习，相互进步。
+我将修改后的主题代码放在了GitHub上面，可以访问进行查看 https://github.com/cby-chen/blog
 
-小陈网站：
+其中`static`目录是我修改后的需要用到的静态文件。`Joe`目录是把主题修改后可以直接使用的，将Joe目录放在 `typecho` 博客系统的  `themes`主题文件夹下即可直接使用。
 
-https://blog.oiox.cn/
-
-https://www.chenby.cn/
-
-https://www.oiox.cn/
-
-关于小陈：https://www.oiox.cn/index.php/start-page.html
+注：主题是引用了我自己的博客网站静态资源 www.oiox.cn
 
 
 
-https://blog.oiox.cn/
-
-https://www.oiox.cn/
-
-https://www.chenby.cn/
-
-https://cby-chen.github.io/
-
-https://weibo.com/u/5982474121
-
-https://blog.csdn.net/qq_33921750
-
-https://my.oschina.net/u/3981543
-
-https://www.zhihu.com/people/chen-bu-yun-2
-
-https://segmentfault.com/u/hppyvyv6/articles
-
-https://juejin.cn/user/3315782802482007
-
-https://space.bilibili.com/352476552/article
-
-https://cloud.tencent.com/developer/column/93230
-
-https://www.jianshu.com/u/0f894314ae2c
-
-https://www.toutiao.com/c/user/token/MS4wLjABAAAAeqOrhjsoRZSj7iBJbjLJyMwYT5D0mLOgCoo4pEmpr4A/
-
-
-CSDN、GitHub、知乎、开源中国、思否、掘金、简书、腾讯云、哔哩哔哩、今日头条、新浪微博、个人博客
-
-全网可搜《小陈运维》
+> **关于**
+>
+> https://www.oiox.cn/
+>
+> https://www.oiox.cn/index.php/start-page.html
+>
+> **CSDN、GitHub、知乎、开源中国、思否、掘金、简书、华为云、阿里云、腾讯云、哔哩哔哩、今日头条、新浪微博、个人博客**
+>
+> **全网可搜《小陈运维》**
+>
+> **文章主要发布于微信公众号：《Linux运维交流社区》**

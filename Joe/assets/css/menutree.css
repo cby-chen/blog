@@ -1,0 +1,56 @@
+.menutree {
+    position:sticky;
+    top:60px;
+    width:15%;
+    margin:15px 15px 15px 0px;
+    /* 溢出内容添加滚动条 */
+    overflow-y:auto;
+    overflow-x:auto;
+    background: var(--background);
+}
+
+/** 父元素<ul>与其中的子元素<li> **/
+.index-menu-item {
+    margin: 10px 0px;
+}
+
+.index-menu-list {
+    margin: 5px 0px 5px 10px;
+}
+
+/** 所有<a>标签 **/
+.index-menu-link{
+    color: var(--main);
+    transition:all 0.2s ease-in-out 0s;
+    padding:5px 0px;
+}
+
+.index-menu-link:hover {
+    color: var(--theme);
+    text-shadow: var(--text-shadow);
+    font-weight:500;
+    background-color:#efefef;
+}
+
+/* 锚点跳转定位 */
+.menu-target-fix {
+    display: block;
+    position: relative;
+    /* 偏移量 */
+    top:-100px;
+}
+
+/* 在宽度小于1000px的设备上隐藏短划线，以使目录的标题正常显示 */
+@media screen and (max-width:1000px) {
+    .joe_aside__item-title > .line {
+        display:none;
+    }
+}
+
+/* 在宽度小于800px的设备上隐藏目录侧边栏 */
+@media screen and (max-width:800px) {
+    .menutree{
+        display:none;
+    }
+}
+
